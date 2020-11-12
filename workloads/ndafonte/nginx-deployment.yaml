@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: "nginx-deployment"
+  namespace: "ndafonte"
+spec:
+  selector:
+    matchLabels:
+      app: "nginx"
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: "nginx"
+    spec:
+      containers:
+        - image: nginx:alpine
+          name: "nginx"
+          ports:
+            - containerPort: 80
+
+
