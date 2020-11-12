@@ -1,4 +1,5 @@
 namePrefix: ndafonte-
-namespace: ndafonte
 bases:
   - ../../base
+resources:
+  - namespace.yml
