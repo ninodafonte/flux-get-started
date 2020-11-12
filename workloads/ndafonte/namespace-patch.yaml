@@ -2,5 +2,4 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ndafonte-nginx-deployment
-  namespace: ndafonte
+  name: nginx-deployment
