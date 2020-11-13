@@ -4,4 +4,3 @@ resources:
   - ./app1-ndafonte
   - ./app1-otherdev
   - ./fluxcd
-  - ./static
