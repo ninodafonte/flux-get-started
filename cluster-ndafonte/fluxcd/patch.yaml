@@ -14,7 +14,7 @@ spec:
             - --memcached-service=
             - --ssh-keygen-dir=/var/fluxd/keygen
             - --git-branch=master
-            - --git-path=namespaces,workloads/ndafonte,workloads/otherdev,workloads/fluxcd
+            - --git-path=cluster-ndafonte/app1-ndafonte,cluster-ndafonte/app1-otherdev
             - --git-user=ninodafonte
             - --git-email=ninodafonte@users.noreply.github.com
             - --git-url=git@github.com:ninodafonte/flux-get-started
