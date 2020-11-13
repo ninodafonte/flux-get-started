@@ -1,0 +1,2 @@
+version: 1 # must be `1`
+scanForFiles: { }
